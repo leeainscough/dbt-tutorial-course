@@ -8,6 +8,7 @@ WITH products AS (
 	FROM {{ ref('stg_ecommerce__products') }}
 )
 
+
 SELECT
 
 	-- IDs
